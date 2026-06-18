@@ -18,7 +18,7 @@ Destroy The Boat! is a two-player PvP game where one player takes control of a b
     - GPIO: Controls switches that fire cannons
     - 7-segment Display: Displays the current game time
 
-# Firmware and Software
+# Firmware and Software (ARM Assembly, C)
 The program was designed so that it can be very power efficient, making use of interrupts and sleep modes to conserve power as much as possible. The game was written in C, while an assembly file called cm0dsasm.s serves as a bridge between the C files and the hardware. 
 - cm0dsasm.s holds the vector table, interrupt handlers, and allocates the stack and heap. 
 - main.c implements the core game logic, taking an advantage of a simple API to control the game objects.
