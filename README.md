@@ -5,7 +5,7 @@ A custom System-on-Chip (SoC) designed and implemented on a Xilinx Nexys A7 FPGA
 Destroy The Boat! is a two-player PvP game where one player takes control of a boat and the other player controls cannons. The goal of the boat is to stay alive for as long as possible while collecting tokens to score points. The goal of the cannons is to destroy the boat and prevent it from accruing as many points as possible.
 
 # System Architecture
-![SoC Image](Arm Cortex M0 SoC.png)
+![SoC Image](Arm_Cortex_M0_SoC.png)
 
 # Hardware (Verilog, Vivado)
 - Bus Architecture: Fully compliant AHB-Lite bus fabric utilizing Memory-Mapped I/O (MMIO) to decode addresses and route data between the Cortex-M0 master and custom peripheral slaves.
